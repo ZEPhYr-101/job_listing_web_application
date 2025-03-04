@@ -1,0 +1,8 @@
+@import "@/css/templateCss/toastr.css";
+@import "@/css/templateCss/sweetalert2.css";
+@import "@/css/templateCss/adminlte.css";
+@import "flowbite/src/themes/default";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
