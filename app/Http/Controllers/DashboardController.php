@@ -24,6 +24,6 @@ class DashboardController extends Controller
         $request->session()->regenerateToken();
 
         //Redirect
-        return redirect()->route('landingpage')->with('success', 'asadasd');
+        return redirect()->route('landingpage');
     }
 }
